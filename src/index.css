@@ -4,6 +4,10 @@
 body{
   font-family: "Work Sans", sans-serif;
 }
+p{
+  font-size: 18px;
+  color: var(--color-gray6);
+}
 
 @utility container {
   margin-inline: auto;
@@ -20,5 +24,8 @@ body{
   /* ------ Colors part ---------- */
   --color-primary: #A53DFF;
   --color-secondary: #333333;
+  --color-gray6: #87909D;
+  --color-gray7: #424E60;
+  --color-gray9: #132238;
 
 }

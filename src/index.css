@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+body{
+  font-family: "Work Sans", sans-serif;
+}
+
+@utility container {
+  margin-inline: auto;
+}
+
+@theme {
+  /* ------ Container part ---------- */
+  --breakpoint-*: initial;
+  --breakpoint-sm: 570px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 990px;
+  --breakpoint-xl: 1320px;
+
+  /* ------ Colors part ---------- */
+  --color-primary: #A53DFF;
+  --color-secondary: #333333;
+
+}

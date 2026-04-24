@@ -4,6 +4,7 @@ import Benar from "./Components/Benar"
 import About from "./Components/About"
 import WorkProcess from './Components/WorkProcess'
 import Portfolio from './Components/Portfolio'
+import ProjectIdia from './Components/ProjectIdia'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <About/>
       <WorkProcess/>
       <Portfolio/>
+      <ProjectIdia/>
     </div>
   )
 }

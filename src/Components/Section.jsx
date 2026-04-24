@@ -2,7 +2,7 @@ import React from 'react'
 
 const Section = ({children, className}) => {
   return (
-    <section className={`${className} py-[70px]`}>
+    <section className={`${className} py-[30px] lg:py-[100px]`}>
       {children}
     </section>
   )

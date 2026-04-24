@@ -6,7 +6,7 @@ import BenarPhoto from "../assets/Benar.jpg"
 const Benar = () => {
   return (
     <>
-     <section className='pt-32 pb-56'>
+     <section className='pt-10 lg:pt-32'>
         <Container>
             <div className='flex flex-wrap-reverse justify-between gap-3.5 lg:flex-nowrap '>
                 <div className='max-w-[648px] flex flex-col justify-between gap-5'>

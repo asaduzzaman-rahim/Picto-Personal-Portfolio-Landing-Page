@@ -3,6 +3,7 @@ import Navber from './Components/Navber'
 import Benar from "./Components/Benar"
 import About from "./Components/About"
 import WorkProcess from './Components/WorkProcess'
+import Portfolio from './Components/Portfolio'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Benar/>
       <About/>
       <WorkProcess/>
+      <Portfolio/>
     </div>
   )
 }
